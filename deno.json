@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --allow-all --env --unstable-kv --watch main.ts"
+    "dev": "deno run --allow-all --env --unstable-kv --watch --allow-sys main.ts"
   },
   "imports": {
     "@ai-sdk/anthropic": "npm:@ai-sdk/anthropic@^1.2.4",

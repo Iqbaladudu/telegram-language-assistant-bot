@@ -11,6 +11,7 @@
     "@mastra/core": "npm:@mastra/core@^0.7.0",
     "@vlad-yakovlev/grammy-reply-with-markdown": "npm:@vlad-yakovlev/grammy-reply-with-markdown@^2.0.1",
     "grammy": "npm:grammy@^1.35.1",
+    "langfuse-vercel": "npm:langfuse-vercel@^3.37.1",
     "zod": "npm:zod@^3.24.2"
   },
   "nodeModulesDir": "auto"

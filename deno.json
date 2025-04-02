@@ -1,12 +1,15 @@
 {
   "tasks": {
-    "dev": "deno run --allow-all --env --unstable-kv --watch --allow-sys main.ts",
+    "dev": "deno run --allow-all --env --unstable-kv --watch main.ts",
     "start": "deno run --allow-all --env --unstable-kv main.ts"
   },
   "imports": {
     "@ai-sdk/anthropic": "npm:@ai-sdk/anthropic@^1.2.4",
+    "@ai-sdk/mistral": "npm:@ai-sdk/mistral@^1.2.3",
     "@ai-sdk/openai": "npm:@ai-sdk/openai@^1.3.6",
+    "@grammyjs/parse-mode": "npm:@grammyjs/parse-mode@^1.11.1",
     "@mastra/core": "npm:@mastra/core@^0.7.0",
+    "@vlad-yakovlev/grammy-reply-with-markdown": "npm:@vlad-yakovlev/grammy-reply-with-markdown@^2.0.1",
     "grammy": "npm:grammy@^1.35.1",
     "zod": "npm:zod@^3.24.2"
   },

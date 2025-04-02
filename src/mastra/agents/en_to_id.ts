@@ -1,5 +1,5 @@
 import { Agent } from "@mastra/core/agent";
-import { anthropic } from "@ai-sdk/anthropic";
+import { mistral } from "@ai-sdk/mistral";
 import {
   EN_ID_COMPREHENSIVE_TRANSLATOR_PROMPT,
   EN_ID_TELEGRAM_TRANSLATOR_PROMPT_SIMPLE,
@@ -8,11 +8,11 @@ import {
 export const En_Id_Translate_Simple = new Agent({
   name: "En_Id_Translate_Simple",
   instructions: EN_ID_TELEGRAM_TRANSLATOR_PROMPT_SIMPLE,
-  model: anthropic("claude-3-5-haiku-latest"),
+  model: mistral("mistral-large-latest"),
 });
 
 export const En_Id_Translate_Comprehensive = new Agent({
   name: "En_Id_Translate_Comprehensive",
   instructions: EN_ID_COMPREHENSIVE_TRANSLATOR_PROMPT,
-  model: anthropic("claude-3-5-haiku-latest"),
+  model: mistral("mistral-large-latest"),
 });
